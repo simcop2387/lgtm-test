@@ -11,6 +11,8 @@ int main(int argc, char **argv) {
    } else {
      printf("Now you're just showing off");
    }
+
+   q=-1;
  
    return 1;
 }
