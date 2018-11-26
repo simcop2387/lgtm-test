@@ -12,7 +12,7 @@ int main(int argc, char **argv) {
      printf("Now you're just showing off");
    }
 
-   if (q < 0) { /* lgtm */
+   if (q < 0) {
      printf("Nevermore\n");
    }
  
