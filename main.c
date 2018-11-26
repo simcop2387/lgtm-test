@@ -6,7 +6,8 @@ int main(int argc, char **argv) {
    unsigned int q = 1;
    if (q >= 0) {
      printf("Testing\n");
-   } else if (q < 0) {
+   	} else if (q < 0) { /* // lgtm[cpp/constant-comparison] hide the bug
+   */
      printf("You're a wizard\n");
    } else {
      printf("Now you're just showing off");
